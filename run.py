@@ -414,7 +414,7 @@ def train_model(
 
         if val_acc > best_acc:
             best_acc = val_acc
-            torch.save(model.state_dict(), 'best_model_resnetrs_0326_new.pth')
+            torch.save(model.state_dict(), 'best_model_resnetrs.pth')
 
     print(f'Best val Acc: {best_acc:.4f}')
     plot_training_curves(train_losses, val_losses, train_accs, val_accs)
@@ -613,7 +613,7 @@ def main():
     model = resnetrs50(num_classes=num_classes)
 
     try:
-        state_dict = torch.load('./best_model_resnetrs_v1.pth')
+        state_dict = torch.load('./best_model_resnetrs.pth')
         model_dict = model.state_dict()
         filtered_dict = {
             k: v for k, v in state_dict.items()
@@ -648,7 +648,7 @@ def main():
     )
 
     # Load best model
-    model.load_state_dict(torch.load('best_model_resnetrs_0326_new.pth'))
+    model.load_state_dict(torch.load('best_model_resnetrs.pth'))
 
     # Confusion matrix
     classes = train_dataset.classes
