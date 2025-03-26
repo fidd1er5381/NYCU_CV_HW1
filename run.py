@@ -582,7 +582,7 @@ def predict(model, test_loader, train_dataset, device):
 def main():
     """Main function to run the training pipeline."""
     # Configuration
-    data_dir = '../data'
+    data_dir = './data'
     train_dir = os.path.join(data_dir, 'train')
     val_dir = os.path.join(data_dir, 'val')
     test_dir = os.path.join(data_dir, 'test')
