@@ -56,7 +56,7 @@ data/
     └── images/
 ```
 
-## Training
+## Train and Predict
 
 To start train and predict, run:
 ```bash
