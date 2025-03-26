@@ -24,14 +24,14 @@ This repository contains the implementation of a custom ResNetRS50 model for ima
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/nycu-cv-hw1.git
-cd nycu-cv-hw1
+git clone https://github.com/fidd1er5381/NYCU_CV_HW1.git
+cd NYCU_CV_HW1
 ```
 
 2. Create a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate
 ```
 
 3. Install dependencies:
