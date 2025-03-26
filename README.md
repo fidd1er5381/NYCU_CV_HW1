@@ -58,9 +58,9 @@ data/
 
 ## Training
 
-To start training, run:
+To start train and predict, run:
 ```bash
-python train.py
+python run.py
 ```
 
 ## Performance Snapshot
