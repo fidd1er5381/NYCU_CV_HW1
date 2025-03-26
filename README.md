@@ -9,18 +9,6 @@ Name: 褚敏匡
 
 This repository contains the implementation of a custom ResNetRS50 model for image classification, developed as part of the NYCU Computer Vision course in Spring 2025.
 
-## Prerequisites
-
-### Software Requirements
-- Python 3.8+
-- CUDA 11.3+
-- PyTorch 1.10+
-- torchvision
-- matplotlib
-- seaborn
-- pandas
-- scikit-learn
-
 ## Installation
 
 1. Clone the repository:
